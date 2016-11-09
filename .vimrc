@@ -1,9 +1,9 @@
 "Vundle
 set nocompatible               " be iMproved
 filetype off                   " required!
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
-Bundle 'gmarik/vundle'
+Bundle 'VundleVim/Vundle.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
