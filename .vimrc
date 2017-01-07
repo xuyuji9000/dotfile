@@ -14,6 +14,7 @@ Bundle 'jashkenas/coffee-script-tmbundle'
 Bundle 'gregsexton/MatchTag'
 Bundle 'joonty/vim-phpqa.git'
 Bundle 'othree/yajs.vim'
+Bundle 'mxw/vim-jsx'
 
 filetype plugin indent on     " required!
 "Vundle
