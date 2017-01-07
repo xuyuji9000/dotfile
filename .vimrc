@@ -13,7 +13,8 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'jashkenas/coffee-script-tmbundle'
 Bundle 'gregsexton/MatchTag'
 Bundle 'joonty/vim-phpqa.git'
-Bundle 'othree/yajs.vim'
+"Bundle 'othree/yajs.vim'
+Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
 
 filetype plugin indent on     " required!
