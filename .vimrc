@@ -16,6 +16,7 @@ Bundle 'joonty/vim-phpqa.git'
 Bundle 'othree/yajs.vim'
 "Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
+Bundle 'cakebaker/scss-syntax.vim'
 
 filetype plugin indent on     " required!
 "Vundle
