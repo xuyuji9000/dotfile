@@ -13,8 +13,7 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'jashkenas/coffee-script-tmbundle'
 Bundle 'gregsexton/MatchTag'
 Bundle 'joonty/vim-phpqa.git'
-Bundle 'othree/yajs.vim'
-"Bundle 'pangloss/vim-javascript'
+Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
 Bundle 'cakebaker/scss-syntax.vim'
 
@@ -42,7 +41,7 @@ let g:DoxygenToolkit_authorName="yogiman"
 " DoxygenToolkit
 
 " CtrlP
-let g:ctrlp_custom_ignore = 'node_modules\|git'
+let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor'
 " CtrlP
 
 "phpqa"
@@ -115,3 +114,6 @@ set path=$PWD/**
 
 "search
 :set hlsearch
+
+" 'mxw/vim-jsx'
+let g:jsx_ext_required = 0 " Allow JSX in normal JS files
