@@ -7,7 +7,7 @@ Bundle 'VundleVim/Vundle.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
-Bundle "tomasr/molokai"
+Bundle "dracula/vim"
 Bundle 'vim-scripts/DoxygenToolkit.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'jashkenas/coffee-script-tmbundle'
@@ -56,7 +56,7 @@ let g:phpqa_codesniffer_autorun = 0
 " vim主题
 syntax enable
 set background=dark
-colorscheme molokai
+colorscheme dracula
 
 " convert tab to 4 spaces
  set tabstop=4
