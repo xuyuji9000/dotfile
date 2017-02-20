@@ -7,7 +7,6 @@ Bundle 'VundleVim/Vundle.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
-Bundle "dracula/vim"
 Bundle 'vim-scripts/DoxygenToolkit.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'jashkenas/coffee-script-tmbundle'
@@ -16,6 +15,10 @@ Bundle 'joonty/vim-phpqa.git'
 Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
 Bundle 'cakebaker/scss-syntax.vim'
+
+" vim theme
+Bundle "dracula/vim"
+" Bundle "altercation/vim-colors-solarized"
 
 filetype plugin indent on     " required!
 "Vundle
@@ -53,7 +56,7 @@ let g:phpqa_messdetector_autorun = 0
 let g:phpqa_codesniffer_autorun = 0
 "phpqa"
 
-" vim主题
+" vim theme
 syntax enable
 set background=dark
 colorscheme dracula
