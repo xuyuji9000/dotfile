@@ -15,6 +15,8 @@ Bundle 'joonty/vim-phpqa.git'
 Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
 Bundle 'cakebaker/scss-syntax.vim'
+Bundle "leafgarland/typescript-vim"
+Bundle "shawncplus/php.vim"
 
 " vim theme
 Bundle "dracula/vim"
