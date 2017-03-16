@@ -17,6 +17,7 @@ Bundle 'mxw/vim-jsx'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle "leafgarland/typescript-vim"
 Bundle "shawncplus/php.vim"
+Bundle "vim-syntastic/syntastic"
 
 " vim theme
 Bundle "dracula/vim"
@@ -125,3 +126,6 @@ let g:jsx_ext_required = 0 " Allow JSX in normal JS files
 
 " ejs syntax highlight
 au BufNewFile,BufRead *.ejs set filetype=html
+
+" eslint
+let g:syntastic_javascript_checkers = ['eslint']
