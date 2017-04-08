@@ -20,8 +20,9 @@ Bundle "shawncplus/php.vim"
 Bundle "vim-syntastic/syntastic"
 
 " vim theme
-Bundle "dracula/vim"
+" Bundle "dracula/vim"
 " Bundle "altercation/vim-colors-solarized"
+Bundle "flazz/vim-colorschemes"
 
 filetype plugin indent on     " required!
 "Vundle
@@ -61,8 +62,8 @@ let g:phpqa_codesniffer_autorun = 0
 
 " vim theme
 syntax enable
-set background=dark
-colorscheme dracula
+" set background=dark
+" colorscheme dracula
 
 " convert tab to 4 spaces
  set tabstop=4
