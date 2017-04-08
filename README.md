@@ -8,3 +8,11 @@ personal dotfile
 3. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 4. vim
 5. :BundleInstall
+
+## Usage
+
+### colorscheme
+
+```
+:colorscheme badwolf
+```
