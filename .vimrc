@@ -18,6 +18,7 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle "leafgarland/typescript-vim"
 Bundle "shawncplus/php.vim"
 Bundle "vim-syntastic/syntastic"
+Bundle "posva/vim-vue"
 
 " vim theme
 " Bundle "dracula/vim"
