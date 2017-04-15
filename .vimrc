@@ -63,7 +63,7 @@ let g:phpqa_codesniffer_autorun = 0
 " vim theme
 syntax enable
 " set background=dark
-" colorscheme dracula
+colorscheme badwolf
 
 " convert tab to 4 spaces
  set tabstop=4
