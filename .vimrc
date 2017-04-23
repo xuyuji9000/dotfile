@@ -7,7 +7,6 @@ Bundle 'VundleVim/Vundle.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
-Bundle 'vim-scripts/DoxygenToolkit.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'jashkenas/coffee-script-tmbundle'
 Bundle 'gregsexton/MatchTag'
@@ -16,7 +15,6 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'mxw/vim-jsx'
 Bundle 'cakebaker/scss-syntax.vim'
 Bundle "leafgarland/typescript-vim"
-Bundle "shawncplus/php.vim"
 Bundle "vim-syntastic/syntastic"
 Bundle "posva/vim-vue"
 
