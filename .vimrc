@@ -17,6 +17,8 @@ Bundle 'cakebaker/scss-syntax.vim'
 Bundle "leafgarland/typescript-vim"
 Bundle "vim-syntastic/syntastic"
 Bundle "posva/vim-vue"
+Bundle 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 " vim theme
 " Bundle "dracula/vim"
@@ -129,3 +131,8 @@ au BufNewFile,BufRead *.ejs set filetype=html
 
 " eslint
 let g:syntastic_javascript_checkers = ['eslint']
+
+" UltiSnips configuration
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
