@@ -4,14 +4,16 @@ personal dotfile
 ## .vimrc
 
 1. cd ~
-2. ln -s [path]\[to]\dotfile\.vimrc .vimrc 
-3. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-4. vim
-5. :BundleInstall
+2. make .dotfile
+3. git clone https://github.com/xuyuji9000/dotfile .dotfile
+4. ln -s .dotfile\.vimrc .vimrc 
+5. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+6. vim
+7. :BundleInstall
 
 ## Usage
 
-### colorscheme
+### change colorscheme
 
 ```
 :colorscheme badwolf
