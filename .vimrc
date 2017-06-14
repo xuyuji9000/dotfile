@@ -136,3 +136,4 @@ let g:syntastic_javascript_checkers = ['eslint']
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.dotfile/snippets']
