@@ -18,7 +18,6 @@ Bundle "leafgarland/typescript-vim"
 Bundle "vim-syntastic/syntastic"
 Bundle "posva/vim-vue"
 Bundle 'SirVer/ultisnips'
-Plugin 'honza/vim-snippets'
 
 " vim theme
 " Bundle "dracula/vim"
