@@ -75,7 +75,8 @@ colorscheme badwolf
 " mapleader <Leader>
 let mapleader=","
 
-" line number
+" hybrid line number
+set relativenumber
 set number
 
 " 代码折叠
