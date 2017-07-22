@@ -1,0 +1,14 @@
+snippet rc "init react component"
+import React from 'react'
+import createReactClass from 'create-react-class'
+
+const ${1:Component}= createReactClass({
+    render: function() {
+        return (
+            <div></div>
+        )
+    }
+})
+
+export default $1
+endsnippet
