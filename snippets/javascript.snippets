@@ -1,4 +1,4 @@
-snippet rc "init react component"
+snippet rcc "init react component with create-react-class"
 import React from 'react'
 import createReactClass from 'create-react-class'
 
@@ -9,6 +9,16 @@ const ${1:Component}= createReactClass({
 		)
 	}
 })
+
+export default $1
+endsnippet
+
+snippet rcf "init react component with function"
+import React from 'react'
+
+const ${1:Component} = ()=>(
+	<div></div>
+)
 
 export default $1
 endsnippet
