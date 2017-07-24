@@ -3,12 +3,32 @@ import React from 'react'
 import createReactClass from 'create-react-class'
 
 const ${1:Component}= createReactClass({
-    render: function() {
-        return (
-            <div></div>
-        )
-    }
+	render: function() {
+		return (
+			<div></div>
+		)
+	}
 })
 
 export default $1
+endsnippet
+
+snippet rct "react component test"
+import React from 'react'
+import {shallow} from 'enzyme'
+import ${1:Component} from './$1'
+
+describe('$1', ()=>{
+    describe('structure', ()=>{
+        describe('shallow', ()=>{
+            let wrapper
+            beforeEach(()=>{
+                wrapper = shallow(<$1></$1>)
+            })
+            it('exists', ()=>{
+                expect(wrapper.exists()).toEqual(true)
+            })
+        })
+    })
+})
 endsnippet
