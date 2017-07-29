@@ -66,10 +66,10 @@ syntax enable
 " set background=dark
 colorscheme badwolf
 
-" convert tab to 4 spaces
- set tabstop=4
- set softtabstop=4
- set shiftwidth=4
+" convert tab to 2 spaces
+ set tabstop=2
+ set softtabstop=2
+ set shiftwidth=2
  set expandtab
  set autoindent
 
