@@ -29,17 +29,17 @@ import {shallow} from 'enzyme'
 import ${1:Component} from './$1'
 
 describe('$1', ()=>{
-    describe('structure', ()=>{
-        describe('shallow', ()=>{
-            let wrapper
-            beforeEach(()=>{
-                wrapper = shallow(<$1></$1>)
-            })
-            it('exists', ()=>{
-                expect(wrapper.exists()).toEqual(true)
-            })
-        })
+  describe('structure', ()=>{
+    describe('shallow', ()=>{
+      let wrapper
+      beforeEach(()=>{
+        wrapper = shallow(<$1></$1>)
+      })
+      it('exists', ()=>{
+        expect(wrapper.exists()).toEqual(true)
+      })
     })
+  })
 })
 endsnippet
 
