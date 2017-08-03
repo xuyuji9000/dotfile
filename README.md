@@ -3,7 +3,7 @@ personal dotfile
 
 ## .vimrc
 
-1. source setupp.sh
+1. source setup.sh
 2. vim
 3. :BundleInstall
 
