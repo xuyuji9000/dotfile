@@ -3,9 +3,10 @@ personal dotfile
 
 ## .vimrc
 
-1. source setup.sh
-2. vim
-3. :BundleInstall
+1. git clone git@github.com:xuyuji9000/dotfile.git
+2. source setup.sh
+3. vim
+4. :BundleInstall
 
 ## Usage
 
