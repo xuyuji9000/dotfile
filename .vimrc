@@ -7,7 +7,6 @@ Bundle 'VundleVim/Vundle.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'ctrlpvim/ctrlp.vim'
-Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'jashkenas/coffee-script-tmbundle'
 Bundle 'gregsexton/MatchTag'
 Bundle 'joonty/vim-phpqa.git'
@@ -31,15 +30,8 @@ filetype plugin indent on     " required!
 " NERDTree
 autocmd VimEnter * NERDTree
 let NERDTreeWinPos="right"
+map <C-n> :NERDTreeToggle<CR>
 " NERDTree
-
-" NERDTreeTabs
-" 按下 ctrl+n 调出/隐藏 NERDTree
-map <C-n> :NERDTreeTabsToggle<CR>
-" 默认开启nerdtreetabs
-let g:nerdtree_tabs_open_on_console_startup = 1
-" NERDTreeTabs
-
 
 " DoxygenToolkit
 map fg :Dox<cr>
