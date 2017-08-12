@@ -28,7 +28,7 @@ filetype plugin indent on     " required!
 "Vundle
 
 " NERDTree
-autocmd VimEnter * NERDTree
+"autocmd VimEnter * NERDTree
 let NERDTreeWinPos="right"
 map <C-n> :NERDTreeToggle<CR>
 " NERDTree
