@@ -59,9 +59,11 @@ syntax enable
 colorscheme badwolf
 
 " convert tab to 2 spaces
+set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set autoindent
 au FileType javascript setl sw=2 sts=2 et
 
 " mapleader <Leader>
