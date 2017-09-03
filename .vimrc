@@ -18,6 +18,7 @@ Bundle "vim-syntastic/syntastic"
 Bundle "posva/vim-vue"
 Bundle 'SirVer/ultisnips'
 Bundle 'martinda/Jenkinsfile-vim-syntax'
+Bundle 'StanAngeloff/php.vim'
 
 " vim theme
 " Bundle "dracula/vim"
