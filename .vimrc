@@ -33,13 +33,6 @@ let NERDTreeWinPos="right"
 map <C-n> :NERDTreeToggle<CR>
 " NERDTree
 
-" DoxygenToolkit
-map fg :Dox<cr>
-let g:DoxygenToolkit_briefTag_funcName = "yes"
-let g:DoxygenToolkit_commentType = "PHP"
-let g:DoxygenToolkit_authorName="yogiman"
-" DoxygenToolkit
-
 " CtrlP
 let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor'
 " CtrlP
