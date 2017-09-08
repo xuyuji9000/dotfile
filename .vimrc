@@ -30,7 +30,7 @@ filetype plugin indent on     " required!
 
 " NERDTree
 "autocmd VimEnter * NERDTree
-let NERDTreeWinPos="right"
+let NERDTreeWinPos="left"
 map <C-n> :NERDTreeToggle<CR>
 " NERDTree
 
