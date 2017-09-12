@@ -19,6 +19,7 @@ Bundle "posva/vim-vue"
 Bundle 'SirVer/ultisnips'
 Bundle 'martinda/Jenkinsfile-vim-syntax'
 Bundle 'StanAngeloff/php.vim'
+Bundle 'hdima/python-syntax'
 
 " vim theme
 " Bundle "dracula/vim"
@@ -125,3 +126,6 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.dotfile/snippets']
+
+" python 3 syntax highlight
+let python_highlight_all = 1
