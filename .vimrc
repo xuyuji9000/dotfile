@@ -35,7 +35,7 @@ map <C-n> :NERDTreeToggle<CR>
 " NERDTree
 
 " CtrlP
-let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor'
+let g:ctrlp_custom_ignore = 'node_modules\|git\|vendor\|env'
 " CtrlP
 
 "phpqa"
