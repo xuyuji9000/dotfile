@@ -1,13 +1,17 @@
 # dotfile
 personal dotfile
 
-## .vimrc
+## Command
 
-1. cd ~
-2. git clone https://github.com/xuyuji9000/dotfile.git .dotfile
-3. source ~/.dotfile/setup.sh
-4. vim
-5. :BundleInstall
+```bash
+cd ~
+git clone https://github.com/xuyuji9000/dotfile.git .dotfile
+source ~/.dotfile/setup.sh
+vim
+```
+```
+:BundleInstall
+```
 
 ## Usage
 
